@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 16px/28px;
+	font-family: arial;
+	background-color: #ddd;
+	background-image: url(img/gambar.png);
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: white;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 123PX;
+}
+
+.header a {
+	text-decoration:  none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 300px;
+	background-image: url(img/hero.png);
+	background-size: cover;
+	background-position: 0 -160px;
+	border-bottom: 5px solid lightskyblue;
+	border-top: 5px solid salmon;
+}
+
+
+.menu {
+	margin: 54px;
+	margin-top: -5px;
+	margin-right: 5px;
+	border-top: 5px solid salmon;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	background: #333;
+	text-align: center;
+	cursor: pointer;
+	transition-duration: 0.6s;
+
+}
+
+.menu {
+	margin-left: 0px;
+	margin-top: 1px;
+}
+
+.menu li:hover {
+	background: #fb099a;
+}
+
+.menu li ul li {
+	position: relative;
+
+}
+
+.menu li ul {
+	display: none;
+}
+
+.menu ul li span.arrow {
+	border: 6px solid transparent;
+	border-top: 9px solid #fff;
+	position: absolute;
+	top: 455px;
+	left: 610px;
+}
+
+.menu li:hover ul {
+	display: block;
+	position: relative;
+}
+
+.main {
+	padding: 15px;
+	width: 600px;
+	box-sizing: border-box;
+	float: left;
+	background-color: lightskyblue;
+}
+
+.main h2 {
+	font-size: 32px;
+	font font-weight: bold;
+}
+
+.main .penulis {
+	font-size: 12px;
+	margin-top: -1px;
+}
+
+.main .penulis a {
+	font-size: 12px;
+	color: salmon;
+	text-decoration: none;
+
+}
+
+
+.main p {
+	margin-bottom: 15px;
+	font-size: 14px;
+	text-align: justify;
+	text-indent: 0.5in;
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	padding: 15px;
+	background-color: salmon;
+
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	color: black;
+	margin-top: -5px;
+	padding: 5px;
+}
+
+.sidebar img {
+	width: 70px;
+	height: 60px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+	font-size: 13px;
+	font-family: arial;
+	text-align: justify;
+
+}
+.footer {
+	background-color: black;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear:  both;
+}
+
+.cf {
+	*zoom: 1;
+}
